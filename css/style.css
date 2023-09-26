@@ -66,3 +66,15 @@ img {
 .attribution a:hover {
     color: hsl(0, 0%, 100%)
 }
+
+/*Responsive design*/
+@media (min-width: 1440px){
+    body{
+        min-width: 1440px;
+    }
+
+    .attribution {
+        display: flex;
+        justify-content: center;
+    }
+}
