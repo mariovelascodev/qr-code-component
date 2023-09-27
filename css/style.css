@@ -7,7 +7,6 @@
 body {
     background-color: hsl(220, 15%, 55%);
     font-family: 'Outfit', sans-serif;
-    max-width: 375px;
 }
 
 .qr_box {
@@ -68,10 +67,8 @@ img {
 }
 
 /*Responsive design*/
+
 @media (min-width: 1440px){
-    body{
-        min-width: 1440px;
-    }
 
     .attribution {
         display: flex;
